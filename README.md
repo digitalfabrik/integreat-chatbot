@@ -14,12 +14,14 @@ To run the first prototype you need to download a LLM. There are different avail
 
 Before running the script some dependencies need to be installed, therefore create a virtual environment and activate it. The script will download the llm and it will be saved in `home/.cache/huggingface`, so expect the first run of the script to be significantly slower than the following ones.
 
-`python3 -m venv .venv
-source .venv/bin/activate`
+```
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
 then install
 
-`
+```
 pip install --upgrade pip
 pip install pip install farm-haystack==1.17.2
-`
+```
